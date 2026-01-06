@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CVInsight – AI Resume Analyzer
 
-# Run and deploy your AI Studio app
+CVInsight is an **AI-powered resume analyzer** that evaluates resumes, provides detailed feedback, scoring, and optimization suggestions.  
+It can also match your resume to a job description and highlight areas for improvement, helping candidates optimize their resumes for real-world applications.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MoJ5mipSYhmpLZV8AumjXCYn8CWMWYEm
+## 🚀 Features
 
-## Run Locally
+- 📄 Upload and analyze resumes in PDF, DOCX, or TXT format  
+- 🧩 Detect sections: Summary, Experience, Education, Skills, Certifications, Projects  
+- 📝 Grammar, clarity, and phrasing improvement suggestions  
+- 🎯 ATS (Applicant Tracking System) optimization and missing keyword detection  
+- 📊 Detailed section-wise scoring and overall resume score  
+- 🧠 Job description matching (optional)  
+- 📈 Visual reports highlighting strengths, weaknesses, and recommendations  
+- 💾 Export analysis report as PDF  
 
-**Prerequisites:**  Node.js
+---
 
+## 🖼️ Screenshots
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Home / Upload Resume
+![Screenshot 1](Screenshot1.png)
+
+### Analysis in Progress
+![Screenshot 2](Screenshot2.png)
+
+### Report & Recommendations
+![Screenshot 3](Screenshot3.png)
+
+---
+
+## 🛠️ Run Locally
+
+### Prerequisites
+
+- Node.js (v18+ recommended)  
+- npm (comes with Node.js)  
+- Google Gemini API key
+
+---
+
+### Clone Repository and Install Dependencies
+
+```bash
+git clone https://github.com/mohakamran/cvinsight-ai-resume-analyzer.git
+cd cvinsight-ai-resume-analyzer
+npm install --legacy-peer-deps
