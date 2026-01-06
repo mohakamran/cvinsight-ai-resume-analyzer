@@ -39,16 +39,18 @@ It can also match your resume to a job description and highlight areas for impro
 
 ---
 
-## API Key Setup
+## Clone Repository and Install Dependencies
+```bash
+git clone https://github.com/mohakamran/cvinsight-ai-resume-analyzer.git
+cd cvinsight-ai-resume-analyzer
+```
 
+### API Key Setup
+After cloning project, get api key from google studio https://studio.google.ai/
 - Create a file named .env.local in the project root
 - Add your Gemini API key:
 - API_KEY=your_gemini_api_key_here
 
-### Clone Repository and Install Dependencies
-
 ```bash
-git clone https://github.com/mohakamran/cvinsight-ai-resume-analyzer.git
-cd cvinsight-ai-resume-analyzer
 npm install
 npm run dev
