@@ -26,8 +26,6 @@ It can also match your resume to a job description and highlight areas for impro
 ### Report & Recommendations
 ![Screenshot 2](Screenshot2.png)
 
-### Report & Recommendations
-![Screenshot 3](Screenshot3.png)
 
 ---
 
@@ -41,9 +39,16 @@ It can also match your resume to a job description and highlight areas for impro
 
 ---
 
+## API Key Setup
+
+- Create a file named .env.local in the project root
+- Add your Gemini API key:
+- API_KEY=your_gemini_api_key_here
+
 ### Clone Repository and Install Dependencies
 
 ```bash
 git clone https://github.com/mohakamran/cvinsight-ai-resume-analyzer.git
 cd cvinsight-ai-resume-analyzer
-npm install --legacy-peer-deps
+npm install
+npm run dev
