@@ -1,0 +1,5 @@
+{
+  "name": "CVInsight AI Resume Analyzer",
+  "description": "A professional AI-powered tool to analyze resumes, provide ATS optimization feedback, and match skills against job descriptions using Gemini 3 Flash.",
+  "requestFramePermissions": []
+}
