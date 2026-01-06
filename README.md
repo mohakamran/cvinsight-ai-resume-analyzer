@@ -23,7 +23,7 @@ It can also match your resume to a job description and highlight areas for impro
 ### Home / Upload Resume
 ![Screenshor 1](Screenshor1.png)
 
-### Analysis in Progress
+### Report & Recommendations
 ![Screenshot 2](Screenshot2.png)
 
 ### Report & Recommendations
