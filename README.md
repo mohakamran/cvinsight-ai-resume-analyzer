@@ -49,7 +49,7 @@ cd cvinsight-ai-resume-analyzer
 After cloning project, get api key from google studio https://studio.google.ai/
 - Create a file named .env.local in the project root
 - Add your Gemini API key:
-- API_KEY=your_gemini_api_key_here
+- GEMINI_API_KEY=your_gemini_api_key_here or API_KEY=your_gemini_api_key_here 
 
 ```bash
 npm install
