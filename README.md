@@ -16,6 +16,7 @@ It can also match your resume to a job description and highlight areas for impro
 - 📈 Visual reports highlighting strengths, weaknesses, and recommendations  
 - 💾 Export analysis report as PDF  
 
+View Link: https://cvinsight-ai-resume-analyzer.vercel.app/ 
 ---
 
 ## 🖼️ Screenshots
